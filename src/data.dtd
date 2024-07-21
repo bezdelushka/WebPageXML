@@ -1,0 +1,10 @@
+<!ELEMENT users (user*)>
+<!ELEMENT user (id, name, email, pass_hash, images)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT pass_hash (#PCDATA)>
+<!ELEMENT images (image*)>
+<!ELEMENT image (filename, data)>
+<!ELEMENT filename (#PCDATA)>
+<!ELEMENT data (#PCDATA)>

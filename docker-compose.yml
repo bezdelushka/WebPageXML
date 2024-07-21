@@ -1,0 +1,10 @@
+version: '3.9' 
+
+services:
+  php-env:
+    build: . #path to dockerfile
+    volumes: 
+      - ./src:/var/www/html 
+    ports:
+      - 8080:80
+  
